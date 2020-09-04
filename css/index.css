@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -55,9 +55,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    background-image:url("C:\Users\White\LambdaSchoolWeb36Projects\web-Sprint-Challenge-User-Interface-and-Git\img\jumbo-about.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
 a{
     display:inline-block;
-    
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,7 +91,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+#products {
+    /* display: flex; */
+    
+   
+}
+#products .top {
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin:2% auto;
+    border-block-style: dotted;
+    padding: 1%;
+}
+#products .bottom {
+    display: flex;
+justify-content: space-around;
+  width: 50%;
+    margin:2% auto;
+    border-bottom-style: dotted;
+    padding: 1%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
